@@ -5,14 +5,14 @@ const spawn = require('child_process').spawn;
 
 
 
-mc.status("java", "47.34.53.70", 25565)
+mc.status("java", "UnlondonSeason6.minecraftr.us", 25565)
 .then((res) => {
     fs.writeFile("serverInfo.json", JSON.stringify(res), (err) => {
-        console.log("JSON is created")
+        //console.log("JSON is created")
         let jsonData = require("C:/Users/chris/OneDrive/Desktop/Coding/web_development/ServerSideDev/MinecraftServerStatusTest/serverInfo.json")
-        console.log(jsonData.online);
+        //console.log(jsonData.online);
         if(jsonData.online == false){
-            console.log("starting server")
+            //console.log("starting server")
             var minecraftServerProcess = spawn('java', [
                 '-Xmx512M',
                 '-Xms256M',
