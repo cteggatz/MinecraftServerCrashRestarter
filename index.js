@@ -3,7 +3,7 @@ const spawn = require('child_process').spawn;
 const {execFile} = require("child_process");
 
 //you can edit this variable
-const minecraftServerIP = "UnlondonSeason6.minecraftr.us";
+const minecraftServerIP = " ";
 const mcStartFile = "";
 
 
