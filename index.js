@@ -18,7 +18,7 @@ function restartCheck(){
     .then((res) => {
         if(res.online == false && serverStartSwitch == false){
             console.log("starting server");
-            execFile(file, (error, stdout, stderror) => {
+            execFile(mcStartFile, (error, stdout, stderror) => {
                 if(error){
                     console.log(`error: ${error.message}`);
                 }
