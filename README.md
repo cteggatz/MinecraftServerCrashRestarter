@@ -10,6 +10,10 @@ enter in the server IP in the variable
  ![image](https://user-images.githubusercontent.com/97490831/163296316-23e9c286-b604-4fe4-a8c1-518d06326046.png)       
 for your server to restart you need to link the run.sh/run.bat file so the application can run it.
 
+3. #### **add forever**       
+https://www.npmjs.com/package/forever       
+in your terminal do ```npm i forever```
+
 
 ## (!)Main Commands(!)
 ##### Start Server
