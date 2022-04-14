@@ -1,4 +1,4 @@
-# MinecraftServerStatusTest
+# MinecraftServerCrashRestarter
 
 ## (!)How to set up(!)
 
